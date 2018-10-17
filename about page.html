@@ -1,0 +1,60 @@
+<!doctype html> 
+<html>
+<head> 
+<title> About me </title> 
+<div class="topnav">
+  <a class="active" href="index.html" target="_self">Home</a>
+  <a href="about page.html" target="_self" id="menuelink">About</a>
+  <a href="education page.html" target="_self">Education</a>
+  <a href="skills page.html" target="_self">Skills</a>
+  <a href="projects page.html" target="_self">Projects</a>
+  <a href="contacts page.html" target="_self">Contacts</a>
+</div>
+<link rel="stylesheet" type="text/css" href="aboutpagestyle.css">
+</head> 
+<body> 
+<div> 
+<img src="222.jpg">
+
+
+
+</div>
+
+<div id="fadebackground">
+<div id="text" style="padding-top: 20px;">
+<p id="demo"> </p>
+ <script>
+var i = 0;
+var txt = 'Nice to see you here! :)';
+var speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
+ </script>
+<p> I'm Anastasiya, International Business Administration student from Russia, currently studying and living in Lithuania. 
+Being interested in media culture and social relations,
+I do dream to get employed in entertainment business I really like as for me pleasure in the job puts perfection in the work. </p> 
+<p>I consider myself passionate about what I do and starting my career I'm going to work so hard, 
+that I would not any longer need to introduce myself to others soon.</p>
+<p> I can sum myself up with three words: ambitious, hard-working and eager to learn new things. </p>
+ </div>
+</div>
+<div id="socialmedia">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font icons -->
+<a href="https://www.facebook.com/anastasya.tokareva" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/asking_anastasiya/"  target="_blank" class="fa fa-instagram"></a>
+<a href="https://vk.com/asking_anastasiya" target="_blank" class="fa fa-vk"></a>
+<a href="https://www.linkedin.com/in/anastasiya-t-a73944127/" target="_blank" class="fa fa-linkedin"></a>
+</div>
+</body>
+
+</html>

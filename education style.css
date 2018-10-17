@@ -1,0 +1,80 @@
+.topnav {
+	font-family: Corbel; 
+	text-align: center;
+	font-size: 30px;
+	color: white; 
+	margin-top: 40px; 
+}
+
+/*links */
+a:link {
+    color: white;
+	text-decoration: none;
+}
+
+a:visited {
+    color: white;
+	text-decoration: none;
+}
+#schools a:link {
+    color: DarkBlue;
+	text-decoration: none;
+}
+#schools a:visited {
+    color: DarkBlue;
+	text-decoration: none;
+}
+
+body {
+	background-image: url("background.jpg"); 
+	background-size: 100%;
+	background-repeat: no-repeat; 
+    
+}
+
+#menuelink {
+	color: white;
+	text-decoration: underline;
+    text-decoration-color: white;
+}
+/*COL1 */
+#col1 { 
+height: 523px; 
+width: 400px; 
+background-color: rgba(255,255,255, 0.5); 
+margin-left: 90px; 
+margin-top: 30px; 
+float: left;
+margin-bottom: 20px;
+color: rgb(0, 0, 87);
+} 
+#schools {
+	margin-left: 110px;
+	opacity: 1; 
+	font-family: corbel; 
+}
+#lyceum {margin-top: 103px;}
+#medway {margin-top: 103px;}  
+
+/*COL2 */
+#col2 { 
+height: 523px; 
+width: 637.3px; 
+background-color:rgba(255,255,255, 0.5); 
+margin-right: 120px; 
+margin-top: 30px; 
+margin-bottom: 20px;
+float: right; 
+}
+#description {
+	margin-left: 110px;
+	opacity: 1; 
+font-family: corbel; 
+color: rgb(0, 0, 87);
+}
+#desclcc {margin-top: 23px;}
+#desclyceum {margin-top: 73px;}
+#descmedway {margin-top: 73px;} 
+
+
+
